@@ -18,6 +18,9 @@ let Visit = db.define(
     serviceId: DataTypes.NUMBER,
     visitDate: DataTypes.DATE,
     status: DataTypes.NUMBER,
+    itemQuantity: DataTypes.NUMBER,
+    endDate: DataTypes.DATE,
+    duration: DataTypes.STRING,
   },
   {
     timestamps: false,

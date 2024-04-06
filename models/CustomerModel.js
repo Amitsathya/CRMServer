@@ -25,6 +25,7 @@ let Customer = db.define(
     status: DataTypes.NUMBER,
     age: DataTypes.NUMBER,
     sex: DataTypes.STRING,
+    notes: DataTypes.STRING,
   },
   {
     timestamps: false,
